@@ -59,7 +59,7 @@ document.querySelector("#pbtm").addEventListener("click",function(dets){
         }
         document.querySelector("#pbtm").innerHTML=cullter;
     }
-    var timer = 30;
+    var timer = 60;
     function GetNewHit(){
         hitrn = Math.floor(Math.random()*10);
         document.querySelector("#hitvalue").textContent = hitrn;
